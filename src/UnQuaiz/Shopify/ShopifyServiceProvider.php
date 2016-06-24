@@ -23,7 +23,7 @@ class ShopifyServiceProvider extends ServiceProvider
     public function boot()
     {
         //$this->package( 'unquaiz/laravel-shopify' );
-        $this->publishes([__DIR__ . '/config/config.php' => config_path('shopify.php')]);
+        $this->publishes([__DIR__ . '/../../config/config.php' => config_path('shopify.php')]);
     }
 
     /**
